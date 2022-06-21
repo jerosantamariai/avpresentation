@@ -8,8 +8,6 @@ import Maps from '../src/views/maps.jsx';
 import Starwars from '../src/views/starwars.jsx';
 import NotFound from '../src/views/notfound.jsx';
 
-
-
 function App() {
   return (
     <BrowserRouter>
