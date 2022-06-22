@@ -19,7 +19,8 @@ const injectContext = PassedComponent => {
         }
 
         componentDidMount(){
-            
+            this.state.actions.getCharacters('https://swapi.dev/api/people/');
+            this.state.actions.getUniversities('http://universities.hipolabs.com/search?country=United+States');
         }
 
         render(){

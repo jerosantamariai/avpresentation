@@ -5,10 +5,10 @@ import injectContext from './store/appContext.js';
 import Navbar from '../src/components/navbar.jsx';
 import About from './views/about.jsx';
 import Home from '../src/views/home.jsx';
-import Maps from '../src/views/maps.jsx';
 import Starwars from '../src/views/starwars.jsx';
 import NotFound from '../src/views/notfound.jsx';
 import UnderConstruction from './views/underconstruction.jsx';
+import University from './views/university.jsx';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/about" element={<About/>} />
-        <Route exact path="/maps" element={<Maps/>} />
+        <Route exact path="/university" element={<University/>} />
         <Route exact path="/starwars" element={<Starwars/>} />
         <Route exact path="/underconstruction" element={<UnderConstruction/>} />
         <Route path="*" element={<NotFound/>} />
